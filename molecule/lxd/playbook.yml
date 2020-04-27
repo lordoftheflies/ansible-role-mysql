@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - mysql_deployment_users_home: /root
+    - mysql_testing_provider: lxd
+
+  roles:
+    - mysql

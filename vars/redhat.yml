@@ -1,0 +1,4 @@
+---
+# roles/mysql/vars/debian.yml
+
+mysql_package_extension: 'rpm'
